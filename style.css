@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 27px;
+    text-align: center;
+    margin: 1.2em;
+}
+
+.form {
+    padding: 0 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.twined-container input {
+    height: 2.1em;
+    border: 1px solid lightgray;
+    border-radius: .3em;
+}
+
+.twined-container {
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*  */
+select > option {
+    font-size: larger; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*  */
+
+#status {
+    font-size: .9rem;
+    height: 2.4em;
+    border-radius: .3em;
+    border: 1px solid lightgray;
+}
+
+.submit-button {
+    margin-top: 20px;
+    padding: 0 3em;
+    line-height: 0px;
+    background-color: #008CBA;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: .3em;
+    cursor: pointer;
+}
+
+.label-row {    
+    justify-items: start;
+}
+
+.book-display {
+    margin-top: 2em;
+    padding: 0 10em;
+}
+
+.table {
+    width: 100%;
+}
+
+th {
+    padding-bottom: .6em;
+    border-bottom: 1px solid lightgray;
+    text-align: left;
+}
+
+td {
+    padding: .6em 0;
+    border-bottom: 1px solid lightgray;
+}
+
+#titleList ,#authorList {
+    width: 27em;
+}
+
+#pages, #status-table {
+    width: 11em;
+}
+
+.new-row:hover {
+    background-color: #f1f1f1;
+}
+
+.deleteButton {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: .6em 2em;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: .3em;
+    cursor: pointer;
+}
+
+.toggle-button {
+    cursor: pointer;
+    border: none;
+    background-color: #FFA400;
+    color: #fff;
+    padding: .6em 2em;
+    line-height: 1rem;
+    border-radius: .3em;
+    font-size: 14px;
+    font-weight: 600;
+    width: 150px;
+}
